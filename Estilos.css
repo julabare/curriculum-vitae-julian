@@ -1,0 +1,74 @@
+body {
+    background-color: white;
+    font-family: "open sans, arial";
+   
+}
+
+li {
+    line-height: 24px;
+}
+
+.contenedor-ppal {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    margin: 40px auto;
+    border: solid;  
+    border-color: black; 
+    line-height: 30px;
+    justify-content: center;
+
+ 
+}
+.informacion-lateral {
+    background-color: rgb(33, 148, 224);
+    color: white;
+    margin-right: 40px;
+    font-size: 14px;
+    padding: 10px;
+    
+}
+
+#titulo-esp {
+    font-size: 20px;
+    font-weight: 700px;
+    margin-top: 30px;
+}
+
+
+/* estilo del tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+  }
+  
+  /* estilo de los botones dentro de la tabla */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+  
+  /* cambiar el fondo cuando pasa el raton por encima */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* fondo cuando el boton esta activo */
+  .tab button.active {
+    background-color: #ccc;
+  }
+  
+  /* estilo del contenido */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}

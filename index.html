@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CURRICULUM VITAE</title>
+    <link rel="stylesheet" type="text/css" href="/Estilos.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300;1,400&display=swap" rel="stylesheet">     
+</head>
+<body>
+    <body>
+        <!-- contenedor principal --> 
+        <div class="contenedor-ppal">
+            <!-- contenedor general --> 
+            <div class="contendor-general">
+                <!-- contenedor descripcion -->
+                <div class="descripcion">
+                    <h2 id="titulo-esp">Especialista en Ortopedia y traumatologia</h2>
+                    <h1>JONY NICHOLS</h1>
+                    <P>Médico especializado en Ortopedia y traumatologia y en el ámbito hospitalario. Excelencia en diagnósticos precisos y elaboración de estrategias de planes de tratamiento óptimos para los pacientes. Actitud empática y profesional, y una excelente atención al paciente. Experiencia en el asesoramiento de pacientes sobre cuidados posoperatorios y cambios positivos en el estilo de vida.</P>
+                </div>
+                <!-- contenedor formacion academica -->
+                <div class="academicos">
+                    <h3>Formacion Academica</h3>
+                    <ul>
+                        <li>Medico General</li>
+                        <span>2004 - 2010</span>
+                        <li>Especialidad en Ortopedia y Traumatologia</li>
+                        <span>20015 - 2019</span>
+                        <li>Beca de Perfeccionamiento en cirugia de pierna, tobillo y pie</li>
+                        <span>2020 - 2021</span>
+            
+                     </ul>
+                </div>
+                <!-- contenedor experiencia laboral -->
+                <div class="esperiencia-laboral">
+                    <h3>EXPERIENCIA LABORAL</h3>
+                    <div>
+                        <h4>Medico Clinico</h4>
+                        <P>2011-2014</P>
+                        <ul>
+                            <li>Hospital san roque</li>
+                            <li>Hospital benjamin</li>
+                            <li>Hospital san vicente de paul</li>                       
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>Especialista en Ortopedia y Traumatologia</h4>
+                        <P>2019 - actual</P>
+                        <ul>
+                            <li>Hospital gandulfo</li>
+                            <li>Hospital san vicente</li>
+                            <li>Sanatorio Bernal</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <!-- codigo de los tabs --> 
+                    <h3>Referencias de Pacientes</h3>
+                        <div class="tab">
+                            <button class="tablinks" onclick="openReferencias(event, 'Persona1')">Jose Rodriguez</button>
+                            <button class="tablinks" onclick="openReferencias(event, 'Persona2')">Marina Hurtado</button>
+                            <button class="tablinks" onclick="openReferencias(event, 'Persona3')">Josefina Perez</button>
+                            <button class="tablinks" onclick="openReferencias(event, 'Persona4')">Rafael Rizzarello</button>
+                        </div>
+    
+                        <div id="Persona1" class="tabcontent">
+                            <h3>Esguince de rodilla</h3>
+                            <p>Excelente atencion de parte del doctor, profesional con calidez humana que resolvio mi solicitud de una manera pronta y oportuna.</p>
+                        </div>
+    
+                        <div id="Persona2" class="tabcontent">
+                            <h3>Reemplazo total de rodilla</h3>
+                            <p>Tenia miedo pero el doctor me brindo mucha confianza y todo salio exclente, agradezco su amable atencion.</p> 
+                        </div>
+    
+                        <div id="Persona3" class="tabcontent">
+                            <h3>Pie valgo</h3>
+                            <p>Lo que estaba buscando hace mucho tiempo, durante meses consulte especialistas por mi problema del pie, llegue donde el doctor jhony y por fin logro solucionar mi problema, super recomendado, ademas de un carisma increible!.</p>
+                        </div>
+    
+                        <div id="Persona4" class="tabcontent">
+                            <h3>Osteomielitis</h3>
+                            <p>Estaba muy enfermo, gracias al doctor que me atendio con gran paciencia y dedicacion, excelente tratamiento, ahora me encuentro muy bien.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- contenedor lateral -->
+            <aside class="informacion-lateral">
+                <img src="https://randomuser.me/api/portraits/men/99.jpg" alt="mi foto de perfil" width="300">
+                <div class="contacto">
+                    <h3>Contacto</h3>
+                    <span>C:</span>
+                    <a href="tel:+(415) 242-1420">+(415) 242-1420</a>
+                </div>
+                <div>
+                    <span>E:</span>
+                    <a href="mailto:lawrence.meyer@example.com">lawrence.meyer@example.com</a>
+                </div>
+                <!-- contenedor habilidades -->
+                <div class="habilidades">
+                    <h3>Habilidades Blandas</h3>
+                    <ul>
+                        <li>Comunicacion</li>
+                        <li>Trabajo en equipo</li>
+                        <li>Proactividad</li>
+                        <li>liderazgo</li>
+                        <li>coordinacion</li>
+                    </ul>
+                </div>
+                <!-- contenedor referecnias laborales -->
+                <div>
+                    <h3>Referencias Laborales</h3>
+                    <ul>
+                        <li>Toledo Carlos</li>
+                        <SPAn>Medico Clinico</SPAn>
+                        <li>Aguero Ricardo</li>
+                        <SPAn>Emergentologo</SPAn>
+                        <li>Doe John</li>
+                        <SPAn>Medico en Diagnostico por Imagenes</SPAn>
+                    </ul>
+                </div>
+                <!-- formulario -->
+                <div class="formulario">
+                    <span>Consultas llenar el siguiente formulario</span>
+                    <form>
+                        <label for="fname">First name:</label><br>
+                        <input type="text" id="fname" name="fname"><br>
+                        <label for="lname">Last name:</label><br>
+                        <input type="text" id="lname" name="lname"><br>
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="Email" name="Email"><br><br>
+                        <button onclick="myFunction()">Enviar</button>
+                    </form>
+                </div>
+            </aside>
+        </div>    
+    
+        <script src="./script.js"></script>
+</body>
+</html>
